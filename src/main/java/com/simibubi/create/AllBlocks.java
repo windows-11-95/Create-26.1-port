@@ -369,7 +369,7 @@ public class AllBlocks {
 
 	public static final BlockEntry<ShaftBlock> SHAFT = REGISTRATE.block("shaft", ShaftBlock::new)
 		.initialProperties(SharedProperties::stone)
-		.properties(p -> p.mapColor(MapColor.METAL).forceSolidOff())
+		.properties(p -> p.mapColor(MapColor.METAL).forceSolidOff()) // IThundxr learn to update the fucking code i open the problems tab and it shows a sea of yellow warnings as if this is legacy code for 1.8.9 ฝรั่งแม่มึงโง่ 
 		.transform(CStress.setNoImpact())
 		.transform(pickaxeOnly())
 		.blockstate(BlockStateGen.axisBlockProvider(false))
@@ -880,7 +880,7 @@ public class AllBlocks {
 
 	public static final BlockEntry<FluidPipeBlock> FLUID_PIPE = REGISTRATE.block("fluid_pipe", FluidPipeBlock::new)
 		.initialProperties(SharedProperties::copperMetal)
-		.properties(p -> p.forceSolidOff())
+		.properties(p -> p.forceSolidOff()) //IThundxr again? Learn to update the fucking code instead of copy pasting it from 1.8.9 and leaving a sea of yellow warnings in the problems tab learn to fucking update the code you fucking piece of shit slacker putang ina mo แม่มึงเหี้ย
 		.transform(pickaxeOnly())
 		.blockstate(BlockStateGen.pipe())
 		.onRegister(CreateRegistrate.blockModel(() -> PipeAttachmentModel::withAO))

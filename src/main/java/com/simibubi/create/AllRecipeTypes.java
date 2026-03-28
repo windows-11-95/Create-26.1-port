@@ -67,10 +67,10 @@ public enum AllRecipeTypes implements IRecipeTypeInfo, StringRepresentable {
 	SANDPAPER_POLISHING(SandPaperPolishingRecipe::new),
 	SPLASHING(SplashingRecipe::new),
 	HAUNTING(HauntingRecipe::new),
-	DEPLOYING(DeployerApplicationRecipe::new),
+	DEPLOYING(DeployerApplicationRecipe::new), //PepperBell is a putang ina mo, this fucking stupid fucking piece of shit line is throwing an error along with 4 more lines in this file แม่มึงโง่ 
 	FILLING(FillingRecipe::new),
 	EMPTYING(EmptyingRecipe::new),
-	ITEM_APPLICATION(ManualApplicationRecipe::new),
+	ITEM_APPLICATION(ManualApplicationRecipe::new), //simibubi apa lancau ni VS code cakap itu salah
 
 	MECHANICAL_CRAFTING(MechanicalCraftingRecipe.Serializer::new),
 	SEQUENCED_ASSEMBLY(SequencedAssemblyRecipeSerializer::new),

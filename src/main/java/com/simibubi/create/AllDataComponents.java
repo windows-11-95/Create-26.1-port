@@ -235,7 +235,8 @@ public class AllDataComponents {
 
 	public static final DataComponentType<ToolboxInventory> TOOLBOX_INVENTORY = register(
 			"toolbox_inventory",
-		builder -> builder.persistent(ToolboxInventory.BACKWARDS_COMPAT_CODEC).networkSynchronized(ToolboxInventory.STREAM_CODEC)
+		builder -> builder.persistent(ToolboxInventory.BACKWARDS_COMPAT_CODEC).networkSynchronized(ToolboxInventory.STREAM_CODEC) // IThundxr you lazy forgeiner learn to update the damn code you white ass slacker leaving everything for the asians to deal with แม่มึงดอกทอง learn to actually contribute 
+ 
 	);
 
 	public static final DataComponentType<UUID> TOOLBOX_UUID = register(

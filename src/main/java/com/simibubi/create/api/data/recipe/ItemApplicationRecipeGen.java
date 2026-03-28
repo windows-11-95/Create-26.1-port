@@ -5,7 +5,7 @@ import java.util.function.Supplier;
 
 import com.simibubi.create.AllRecipeTypes;
 
-import com.simibubi.create.content.kinetics.deployer.DeployerApplicationRecipe;
+import com.simibubi.create.content.kinetics.deployer.DeployerApplicationRecipe; // Raymond Blaze learn to fix the fucking warnings 
 import com.simibubi.create.content.kinetics.deployer.ItemApplicationRecipe;
 import com.simibubi.create.content.kinetics.deployer.ItemApplicationRecipe.Builder;
 import com.simibubi.create.content.kinetics.deployer.ItemApplicationRecipeParams;

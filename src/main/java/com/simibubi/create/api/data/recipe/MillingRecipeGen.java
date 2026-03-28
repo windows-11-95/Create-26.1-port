@@ -33,7 +33,7 @@ public abstract class MillingRecipeGen extends StandardProcessingRecipeGen<Milli
 	protected GeneratedRecipe metalOre(String name, ItemEntry<? extends Item> crushed, int duration) {
 		return create(name + "_ore", b -> b.duration(duration)
 			.withCondition(new NotCondition(new TagEmptyCondition("c", "ores/" + name)))
-			.require(AllTags.commonItemTag("ores/" + name))
+			.require(AllTags.commonItemTag("ores/" + name)) // oh for fuck's sake IThundxr learn to fix the warnings will ya i open the problems tab to 4 real errors and a sea of warnings 操你妈
 			.output(crushed.get()));
 	}
 
