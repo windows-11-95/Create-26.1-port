@@ -37,7 +37,7 @@ neoForge {
     accessTransformers = files("src/main/resources/META-INF/accesstransformer.cfg")
 
     if (parchment_version != "none") {
-        parchment {
+       parchment {
             minecraftVersion = parchment_minecraft_version == "same" ? minecraft_version : parchment_minecraft_version
             mappingsVersion = parchment_version
         }
@@ -122,7 +122,7 @@ repositories {
 }
 
 dependencies {
-    jarJar(implementation("com.tterrag.registrate:Registrate:$registrate_version"))
+    //jarJar(implementation("com.tterrag.registrate:Registrate:$registrate_version"))
 
     compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-$minecraft_version:$flywheel_version")
     runtimeOnly(jarJar("dev.engine-room.flywheel:flywheel-neoforge-$minecraft_version:$flywheel_version") {
@@ -133,32 +133,32 @@ dependencies {
     })
     runtimeOnly("dev.engine-room.vanillin:vanillin-neoforge-$minecraft_version:$vanillin_version")
 
-    implementation(jarJar("net.createmod.ponder:ponder-neoforge:$ponder_version+mc$minecraft_version") {
-        version {
-            strictly "[$ponder_version+mc$minecraft_version,)"
-            prefer "$ponder_version+mc$minecraft_version"
-        }
-    })
+    //implementation(jarJar("net.createmod.ponder:ponder-neoforge:$ponder_version+mc$minecraft_version") {
+    //    version {
+    //        strictly "[$ponder_version+mc$minecraft_version,)"
+    //        prefer "$ponder_version+mc$minecraft_version"
+    //    }
+    //})
 
     //compileOnly("mezz.jei:jei-$minecraft_version-common-api:$jei_version")
     //compileOnly("mezz.jei:jei-$minecraft_version-neoforge-api:$jei_version")
-    implementation("mezz.jei:jei-$minecraft_version-neoforge:$jei_version")
+    //implementation("mezz.jei:jei-$minecraft_version-neoforge:$jei_version")
 
     compileOnly("top.theillusivec4.curios:curios-neoforge:$curios_version+$minecraft_version:api")
     runtimeOnly("top.theillusivec4.curios:curios-neoforge:$curios_version+$minecraft_version")
 
-    compileOnly("maven.modrinth:sodium:mc$minecraft_version-$sodium_version-neoforge")
+    //compileOnly("maven.modrinth:sodium:mc$minecraft_version-$sodium_version-neoforge")
 
-    if (cc_tweaked_enable.toBoolean()) {
-        compileOnly("cc.tweaked:cc-tweaked-$minecraft_version-core-api:$cc_tweaked_version")
-        compileOnly("cc.tweaked:cc-tweaked-$minecraft_version-forge-api:$cc_tweaked_version")
-        runtimeOnly("cc.tweaked:cc-tweaked-$minecraft_version-forge:$cc_tweaked_version")
-    }
+    //if (cc_tweaked_enable.toBoolean()) {
+    //    compileOnly("cc.tweaked:cc-tweaked-$minecraft_version-core-api:$cc_tweaked_version")
+    //    compileOnly("cc.tweaked:cc-tweaked-$minecraft_version-forge-api:$cc_tweaked_version")
+    //    runtimeOnly("cc.tweaked:cc-tweaked-$minecraft_version-forge:$cc_tweaked_version")
+    //}
 
-    compileOnly("maven.modrinth:farmers-delight:${farmers_delight_version}")
-    if (farmers_delight_enable.toBoolean()) {
-        implementation("maven.modrinth:farmers-delight:${farmers_delight_version}")
-    }
+    //compileOnly("maven.modrinth:farmers-delight:${farmers_delight_version}")
+    //if (farmers_delight_enable.toBoolean()) {
+    //    implementation("maven.modrinth:farmers-delight:${farmers_delight_version}")
+    //}
 
     runtimeOnly("dev.architectury:architectury-neoforge:13d.0.8")
     implementation("dev.ftb.mods:ftb-chunks-neoforge:2101.1.1")
@@ -176,9 +176,9 @@ dependencies {
 
 sourceSets.main {
     java {
-        if (!cc_tweaked_enable.toBoolean()) {
-            exclude "com/simibubi/create/compat/computercraft/implementation/**"
-        }
+        //if (!cc_tweaked_enable.toBoolean()) {
+        //    exclude "com/simibubi/create/compat/computercraft/implementation/**"
+        //}
     }
 
     resources {

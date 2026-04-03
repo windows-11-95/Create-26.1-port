@@ -12,13 +12,13 @@
       "projectName": "Create",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\clientRunProgramArgs.txt"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/clientRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcreate%%C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\bin\\main"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcreate%%/home/pongpat-thanhakarnajanakul/Create-26.1-port/bin/main"
       ],
-      "cwd": "${workspaceFolder}\\run",
+      "cwd": "${workspaceFolder}/run",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -34,13 +34,13 @@
       "projectName": "Create",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\dataRunProgramArgs.txt"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/dataRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcreate%%C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\bin\\main"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcreate%%/home/pongpat-thanhakarnajanakul/Create-26.1-port/bin/main"
       ],
-      "cwd": "${workspaceFolder}\\run",
+      "cwd": "${workspaceFolder}/run",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -56,13 +56,13 @@
       "projectName": "Create",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/gameTestServerRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcreate%%C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\bin\\main"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcreate%%/home/pongpat-thanhakarnajanakul/Create-26.1-port/bin/main"
       ],
-      "cwd": "${workspaceFolder}\\run",
+      "cwd": "${workspaceFolder}/run",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -78,13 +78,13 @@
       "projectName": "Create",
       "mainClass": "net.neoforged.devlaunch.Main",
       "args": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\serverRunProgramArgs.txt"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/serverRunProgramArgs.txt"
       ],
       "vmArgs": [
-        "@C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dcreate%%C:\\Users\\pongp\\OneDrive\\Documents\\GitHub\\Create-26.1-port\\bin\\main"
+        "@/home/pongpat-thanhakarnajanakul/Create-26.1-port/build/moddev/serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dcreate%%/home/pongpat-thanhakarnajanakul/Create-26.1-port/bin/main"
       ],
-      "cwd": "${workspaceFolder}\\run\\server",
+      "cwd": "${workspaceFolder}/run/server",
       "env": {},
       "console": "internalConsole",
       "shortenCommandLine": "none"
